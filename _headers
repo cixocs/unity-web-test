@@ -1,0 +1,19 @@
+# Brotli 圧縮ファイル (.br)
+/*/*.br
+  Content-Encoding: br
+  Content-Type: application/octet-stream
+
+# Unity WebGL ビルドファイル (.unityweb)
+/*/*.unityweb
+  Content-Encoding: gzip
+  Content-Type: application/octet-stream
+
+# WebAssembly ファイル (.wasm.unityweb)
+/*/*.wasm.unityweb
+  Content-Encoding: gzip
+  Content-Type: application/wasm
+
+# JavaScript Framework ファイル (.framework.js.unityweb)
+/*/*.framework.js.unityweb
+  Content-Encoding: gzip
+  Content-Type: application/javascript
