@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.validate": true,
+  "css.validate": false,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  }
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* @apply text-base md:text-basePc; */
+  }
+
+  body {
+    @apply bg-white font-medium text-black antialiased overflow-hidden;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  svg {
+    @apply align-middle;
+  }
+
+  img,
+  video {
+    @apply w-full max-w-none select-none;
+  }
+}
+
+@layer utilities {
+  .translate-z-0 {
+    transform: translateZ(0);
+  }
+}
