@@ -1,33 +1,32 @@
-# Astro Starter Kit: Minimal
+# Unity6 web build with Astro.js
+
+Unity 6でWebプラットフォーム対応されたので、Astro.js環境下で試してみたものです。
+
+## Requirements
+
+* [Astro.js](https://astro.build/) v4.16.12
+* [Node.js](https://nodejs.org/ja) v20.16.0 (LTS)
+
+## Getting Started
+
+### 依存関係のインストール
 
 ```sh
-npm create astro@latest -- --template minimal
+npm i
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+### Devサーバー立ち上げ・開発
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Portは、`3000`になります。
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Development Note
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+* [Happy Harvest](https://assetstore.unity.com/packages/essentials/tutorial-projects/happy-harvest-2d-sample-project-259218) をWebプラットフォームビルドしたものを読み込んでます。
+* Astro.js側では、[react-unity-webgl](https://github.com/jeffreylanters/react-unity-webgl) というライブラリを用いて表示テストしています（結局React...）。
 
 ## 🧞 Commands
 
